@@ -1,0 +1,29 @@
+{
+  "name": "test-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "npx jest --detectOpenHandles --forceExit",
+    "build": "",
+    "test:coverage": "jest --watchAll false --coverage --detectOpenHandles --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.5.3",
+    "lambda-local": "^1.7.4",
+    "nodemon": "^2.0.7",
+    "sequelize-mock": "^0.10.2"
+  }
+}
