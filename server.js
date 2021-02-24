@@ -13,9 +13,7 @@ const selfResult = (pathLambda = "", req = {}) => {
         lambdaPath: path.join(__dirname, pathLambda),
         lambdaHandler: 'handler',
         envfile: path.join(__dirname, '.env'),
-        event: {
-            body: req.body
-        }
+        event: req.body
     }
 };
 

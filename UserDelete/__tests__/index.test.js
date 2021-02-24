@@ -9,9 +9,7 @@ const user = {
 };
 
 const event = {
-    body: {
-        id: 1
-    }
+    id: 1
 }
 
 jest.mock('../validate', () => ({

@@ -4,7 +4,7 @@ const {apiResponse} = require('./traits/apiResponse');
 
 exports.handler = async (event) => {
     try {
-        const body = event.body; // const body = event;
+        const body = event;
         const validateReq = await validate(body);
         if (validateReq) {
             return apiResponse(validateReq, 422);

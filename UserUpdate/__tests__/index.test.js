@@ -9,11 +9,9 @@ const user = {
 };
 
 const event = {
-    body: {
-        id: 1,
-        name: "Testing update",
-        email: "testing@testing.com",
-    }
+    id: 1,
+    name: "Testing update",
+    email: "testing@testing.com",
 }
 
 jest.mock('../validate', () => ({
